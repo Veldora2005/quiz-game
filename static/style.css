@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: linear-gradient(270deg, #04000cf3, #3f106bef, #0f501fe6);
+    background-size: 600% 600%;
+    animation: gradientBG 15s ease infinite;
+    font-family: 'Orbitron', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #3bb0f0b9;
+}
+.quiz-container {
+    background: #1a1a1a;
+    border: 2px solid #99ddff;
+    box-shadow: 0 0 25px #99ddff;
+    border-radius: 20px;
+    padding: 30px;
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+    transition: transform 0.4s ease;
+}
+
+.quiz-container:hover {
+    transform: scale(1.02);
+}
+
+h1, h2 {
+    color: #99ddff;
+    margin-bottom: 20px;
+    text-shadow: 0 0 10px #99ddff;
+}
+
+input[type="text"] {
+    padding: 12px;
+    font-size: 1rem;
+    width: 80%;
+    border: 2px solid #99ddff;
+    border-radius: 10px;
+    background-color: #121212;
+    color: #99ddff;
+    margin-bottom: 20px;
+    outline: none;
+}
+
+button {
+    background-color: #99ddff;
+    color: #0f0f0f;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+    box-shadow: 0 0 10px #99ddff;
+}
+
+button:hover {
+    background-color: #0f0f0f;
+    color: #99ddff;
+    box-shadow: 0 0 20px #cceeff;
+    border: 2px solid #006699;
+}
+
+.option-btn {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 15px;
+    font-size: 1rem;
+    background-color: #121212;
+    color: #cceeff;
+    border: 2px solid #006699;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 10px transparent;
+}
+
+.option-btn:hover {
+    box-shadow: 0 0 10px #97cff3;
+    background-color: #1f1f1f;
+}
+
+#score {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ff99cc;
+    margin-top: 15px;
+}
+@keyframes gradientBG {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+}

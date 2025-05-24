@@ -1,0 +1,52 @@
+[
+  {
+    "Question": "Which Indian village is known as the 'Village of Twins'?",
+    "Options": ["Shani Singnapur", "Kodinhi", "Mawlynnong", "Shetphal"],
+    "Answer": "Kodinhi"
+  },
+  {
+    "Question": "Which Indian city has the only floating post office in the world?",
+    "Options": ["Udaipur", "Srinagar", "Alleppey", "Goa"],
+    "Answer": "Srinagar"
+  },
+  {
+    "Question": "What is the name of the Indian town where no doors or locks are used in houses or shops?",
+    "Options": ["Shani Shingnapur", "Punsari", "Tawang", "Pushkar"],
+    "Answer": "Shani Shingnapur"
+  },
+  {
+    "Question": "Which Indian scientist was also the first Asian to win a Nobel Prize in Science?",
+    "Options": ["C.V.Raman", "Homi Bhabha", "Jagdish Chandra Bose", "Venkatraman Ramakrishnan"],
+    "Answer": "C.V.Raman"
+  },
+  {
+    "Question": "Which Indian state has a tradition of 'Living Root Bridges'?",
+    "Options": ["Sikkim", "Meghalaya", "Nagaland", "Himachal Pradesh"],
+    "Answer": "Meghalaya"
+  },
+  {
+    "Question": "Which Indian city is home to Asia's largest wholesale spice market?",
+    "Options": ["Kochi", "Jaipur", "Delhi", "Hyderabad"],
+    "Answer": "Delhi"
+  },
+  {
+    "Question": "In which Indian state is the 'Loktak Lake' famous for it's floating islands(phumdis), located?",
+    "Options": ["Tripura", "Assam", "Manipur", "Mizoram"],
+    "Answer": "Manipur"
+  },
+  {
+    "Question": "What is the name of the Indian village that is considered the cleanest in Asia?",
+    "Options": ["Malana", "Mawlynnong", "Ziro", "Bylakuppe"],
+    "Answer": "Mawlynnong"
+  },
+  {
+    "Question": "Which Indian scientist invented the first electronic voting machine (EVM) prototype?",
+    "Options": ["M. Chidambaram", "R. Gandhi", "R. Seshadri", "M.B. Ramachandra"],
+    "Answer": "M.B. Ramachandra"
+  },
+  {
+    "Question": "The 'Magnetic Hill' in India, where vehicles appear to move uphill against gravity, is located in: ",
+    "Options": ["Spiti Valley", "Leh", "Mount Abu", "Nainital"],
+    "Answer": "Leh"
+  }
+]
