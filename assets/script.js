@@ -16,7 +16,7 @@ function startQuiz() {
     document.getElementById("quiz-box").style.display = "block";
     document.getElementById("user-welcome").innerText = `Hello, ${username}! Best of luck!`;
 
-    fetch('/get-questions')
+    fetch('questions.json')
         .then(res => res.json())
         .then(data => {
             questions = data;
